@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap");
+:root {
+  --primary-color: #ff6464;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 3rem;
+  padding-right: 12rem;
+  padding-top: 1rem;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+.intro {
+  display: flex;
+  padding: 4rem;
+  justify-content: space-around;
+  padding-top: 13rem;
+}
+
+.intro-container {
+  width: 50vw;
+}
+
+.profile {
+  display: inline;
+}
+
+.profile img {
+  width: 350px;
+  border-radius: 50%;
+}
+
+.heading-1,
+.heading-2 {
+  font-size: 4rem;
+  line-height: 4.5rem;
+}
+
+.description {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  text-align: justify;
+  word-spacing: 2px;
+}
+
+.download-btn {
+  display: block;
+  width: fit-content;
+  color: white;
+  text-decoration: none;
+  background-color: var(--primary-color);
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.download-btn:hover {
+  background-color: #ff6464b2;
+}
+
+.download-btn:active {
+  background-color: var(--primary-color);
+}
